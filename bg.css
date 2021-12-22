@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Waterfall&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montez&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+  /* height: 600px; */
+}
+canvas {
+  padding: 0;
+  margin: 0;
+}
+.btnbg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+}
+.bg-home {
+  display: block;
+  height: 95vh;
+  border-radius: 1em 0 0 1em;
+  margin: 20px;
+  padding: 30px 30px 5vh;
+  background-color: rgba(0, 23, 124, 0.55);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  overflow-y: scroll;
+  text-align: center;
+}
+.bg-home::-webkit-scrollbar {
+  /* display: none; */
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 23, 124);
+  border-radius: 10px;
+}
+
+.home {
+  color: #ececfc;
+  text-align: center;
+  font-family: "Frank Ruhl Libre", serif;
+}
+.main-head {
+  font-size: 80px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+}
+.verse {
+  font-size: 30px;
+  font-weight: 500;
+  /* line-height: 1; */
+  font-family: 'Montez', cursive;
+  /* font-family: 'Mea Culpa', cursive; */
+}
+.waterfall {
+  font-size: 30px;
+}
+.flex {
+  /* width: 700px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo_name {
+  width: 175px;
+  margin: 10px 10px;
+  width: 350px;
+}
+
+.circle {
+  width: 175px;
+  /* margin: 0px 20px; */
+  height: 175px;
+  border-radius: 50%;
+  background: #ececfc;
+}
+
+.name {
+  color: #ececfc;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.bride-groom {
+  line-height: 0.6;
+  margin: 10px 0;
+}
+.and {
+  font-size: 40px;
+  font-family: 'Mea Culpa', cursive;
+  font-weight: 600;
+}
+.name1 {
+  color: #ececfc;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  /* letter-spacing: 1px; */
+}
+.parents {
+  margin: 20px 0;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.sentence{
+  font-size: 19px;
+}
+.details {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.button {
+  font-family: 'Raleway';
+  background: #fff;
+  color: rgb(0, 23, 124);
+  margin: 15px;
+  padding: 8px 16px;
+  border-radius: 10px !important;
+  border: none;
+  font-size: 25px;
+}
+.bg-home hr {
+  color: #fff;
+  height: 5px !important;
+}
