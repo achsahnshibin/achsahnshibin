@@ -34,6 +34,18 @@ canvas {
   overflow-y: scroll;
   text-align: center;
 }
+.bg-homebg {
+  display: block;
+  height: 95vh;
+  border-radius: 1em 0 0 1em;
+  margin: 20px;
+  padding: 30px 30px 5vh;
+  background-color: rgba(25, 37, 92, 0.55);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  overflow-y: scroll;
+  text-align: center;
+}
 .bg-home::-webkit-scrollbar {
   /* display: none; */
   width: 5px;
