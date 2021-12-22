@@ -28,19 +28,7 @@ canvas {
   border-radius: 1em 0 0 1em;
   margin: 20px;
   padding: 30px 30px 5vh;
-  background-color: rgba(0, 23, 124, 0.55);
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
-  overflow-y: scroll;
-  text-align: center;
-}
-.bg-homebg {
-  display: block;
-  height: 95vh;
-  border-radius: 1em 0 0 1em;
-  margin: 20px;
-  padding: 30px 30px 5vh;
-  background-color: rgba(25, 37, 92, 0.55);
+  background-color: rgb(14, 74, 13, 0.65);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   overflow-y: scroll;
@@ -57,10 +45,35 @@ canvas {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(0, 23, 124);
+  background: rgb(14, 74, 13);
+  border-radius: 10px;
+}
+.bg-homebg {
+  display: block;
+  height: 95vh;
+  border-radius: 1em 0 0 1em;
+  margin: 20px;
+  padding: 30px 30px 5vh;
+  background-color: rgba(25, 37, 92, 0.65);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  overflow-y: scroll;
+  text-align: center;
+}
+.bg-homebg::-webkit-scrollbar {
+  /* display: none; */
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(125, 37, 92);
+  border-radius: 10px;
+}
 .home {
   color: #ececfc;
   text-align: center;
