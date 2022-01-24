@@ -33,9 +33,9 @@ canvas {
   border-radius: 1em 0 0 1em;
   margin: 20px;
   padding: 15px 15px 5vh;
-  background-color: rgb(2 19 38 / 45%);
+  background-color: rgb(2 19 38 / 55%);
+  backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
   color: #fff;
   overflow-y: scroll;
   text-align: center;
@@ -74,12 +74,21 @@ canvas {
 }
 
 
-@media (max-width:640px) {
+@media (max-width:400px) {
+  body {
+    background-image: url(./asset/img/mobile-bg.JPG);
+    background-position: inherit;
+    background-size: cover;
+  }
   .verse {
     font-size: 21px;
   }
   .waterfall {
     font-size: 20px;
+  }
+  iframe {
+    width: 275px;
+    height: 200px;
   }
 }
 
