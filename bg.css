@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Waterfall&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
@@ -11,6 +12,9 @@ body {
   overflow: hidden;
   justify-content: center;
   /* height: 600px; */
+  background-image: url(./asset/img/115A3253.JPG);
+  background-position: center;
+  background-size: contain;
 }
 canvas {
   padding: 0;
@@ -21,7 +25,7 @@ canvas {
   left: 0;
   top: 0;
   width: 100% !important;
-  color: #fff;
+  
 }
 .bg-home {
   display: block;
@@ -29,9 +33,10 @@ canvas {
   border-radius: 1em 0 0 1em;
   margin: 20px;
   padding: 15px 15px 5vh;
-  background-color: rgb(12,42,14, 0.65);
+  background-color: rgb(2 19 38 / 45%);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
+  color: #fff;
   overflow-y: scroll;
   text-align: center;
 }
@@ -44,7 +49,7 @@ canvas {
 }
 /* Handle */
 .bg-home::-webkit-scrollbar-thumb {
-  background: rgb(14, 74, 13);
+  background: rgb(2, 19, 38);
   border-radius: 10px;
 }
 
@@ -122,6 +127,7 @@ canvas {
 }
 .wedding-color {
   color: rgb(14, 74, 13);
+  font-family: 'Raleway', sans-serif;
 }
 .button {
   font-family: 'Raleway';
